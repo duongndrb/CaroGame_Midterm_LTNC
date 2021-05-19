@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
-#include <unistd.h> // sleep function
+//#include <unistd.h> // sleep function
 
 #include "config.h"
 #include "botbaseline.h"
@@ -131,7 +131,7 @@ int who_win(){
 
 Point player1_run(){
 //    return player_rand(board_game, 1);
-    return player_baseline(board_game, 1);
+    return player_baseline1(board_game, 1);
 }
 
 Point player2_run(){
